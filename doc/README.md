@@ -15,8 +15,8 @@ Word (.doc) Binary File Format 是一种 MS-CFB 文件。
 
 文档包含下面四种数据
 
-- WordDocument Stream：除表格外的所有数据
-- 1Table Stream or 0Table Stream：table 数据
+- WordDocument Stream: FIB Chpx Prl（属性） PapxFkp 等数据
+- 1Table Stream or 0Table Stream: PLC STSH STTB Clx Prc 等数据
 - Data Stream：FIB 或文件的其它部分指向的数据
 - ObjectPool Storage：用于内嵌的 OLE 对象
 
